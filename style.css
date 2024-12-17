@@ -1,15 +1,17 @@
 body {
-    background-color: lavenderblush ;
+    background-color: lavenderblush;
 }
+
 h1 {
     font-family: Helvetica;
     font-size: 30px;
     color: plum;
     text-align: left;
 }
-p { 
+
+p {
     font-family: Helvetica;
     font-size: 20px;
-    color : plum;
+    color: plum;
     text-align: left;
 }
