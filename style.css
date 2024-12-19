@@ -1,17 +1,17 @@
 body {
-    background-color: lavenderblush;
+    background-color: blanchedalmond;
 }
 
 h1 {
-    font-family: Helvetica;
-    font-size: 30px;
-    color: plum;
-    text-align: left;
+    font-family: raleway;
+    font-size: 300%;
+    color: rgb(26, 2, 2);
+    text-align: center;
 }
 
 p {
-    font-family: Helvetica;
-    font-size: 20px;
-    color: plum;
-    text-align: left;
+    font-family: raleway;
+    font-size: 160%;
+    color: rgb(26, 2, 2);
+    text-align: center;
 }
