@@ -1,17 +1,58 @@
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(165,151,139);
 }
 
 h1 {
     font-family: raleway;
     font-size: 300%;
-    color: rgb(26, 2, 2);
+    color: rgb(92,71,66);
     text-align: center;
 }
 
 p {
     font-family: raleway;
     font-size: 160%;
-    color: rgb(26, 2, 2);
+    color: rgb(47, 3, 3);
     text-align: center;
 }
+
+/* General Section Styling */
+.section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+    background-color: rgb(196,187,175);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent weird scrollbars */
+    transition: height 0.3s ease;
+  }
+  
+  /* Section Header */
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(92,71,66);
+  }
+  
+  /* Dropdown Arrow */
+  .dropdown-arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate the arrow when active */
+  .dropdown-arrow.open {
+    transform: rotate(180deg);
+  }
+  
+  /* Hidden content */
+  .section-content {
+    display: none; /* Hidden by default */
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(92,71,66);
+  }
